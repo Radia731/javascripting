@@ -1,6 +1,5 @@
-const isEven = function (num){
+const isEven  = function (num) {
   return num % 2 === 0;
 }
-
-console.log(tenIsEven);
-console.log(elevenIsEven);
+console.log(isEven(10));
+console.log(isEven(11));
